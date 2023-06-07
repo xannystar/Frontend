@@ -1,0 +1,67 @@
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  img {
+    display: none;
+  }
+}
+
+.slick-slider {
+  position: relative;
+  /* Слайдер запущен */
+  &.slick-initialized {
+  }
+  /* Слайдер с точками */
+  &.slick-dotted {
+  }
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+  /* Слайд активный (показывается) */
+  &.slick-active {
+  }
+  /* Слайд основной */
+  &.slick-current {
+  }
+  /* Слайд по центру */
+  &.slick-center {
+  }
+  /* Клонированный слайд */
+  &.slick-cloned {
+  }
+}
+/* Стрелка */
+.slick-arrow {
+  /* Стрелка влево */
+  &.slick-prev {
+  }
+  /* Стрелка вправо */
+  &.slick-next {
+  }
+  /* Стрелка не активная */
+  &.slick-disabled {
+  }
+}
+/* Точки (булиты) */
+.slick-dots {
+  li {
+    /* Активная точка */
+    &.slick-active {
+      button {
+      }
+    }
+    /* Элемент точки */
+    button {
+    }
+  }
+}
